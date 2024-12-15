@@ -268,7 +268,6 @@ console.log(comWebsite);
 const userTwelveLetters = userList.reduce((acc, curr) => [...acc, curr.username.length > 12 ? curr : null], [])
 .filter(el => Boolean(el))
 console.log(userTwelveLetters);
-
 //
 //#10
 const userLowerCase = userList.reduce((acc, curr) => [...acc, curr.username.toLowerCase()], [])
